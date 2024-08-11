@@ -3,6 +3,8 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+        jcenter()
     }
 }
 
@@ -11,8 +13,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
+
+
 
 rootProject.name = "disaster"
 include ':app'
