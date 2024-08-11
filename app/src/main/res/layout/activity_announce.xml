@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.disaster.Post.Post">
+    tools:context="com.example.disaster.Announce.Announcement">
 
     <!-- Main Content Layout -->
     <LinearLayout
@@ -17,8 +17,8 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#2ABD8E"
-            app:title="Incident Report  ;("
+            android:background="#DA7F1D"
+            app:title="Announcement"
             app:titleTextColor="@android:color/white" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -32,16 +32,9 @@
             android:id="@+id/make_request_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#3BA0E4"
-            android:padding="16dp"
-            android:text="@string/make_Post"
-            android:textAlignment="center"
-            android:textColor="#0D47A1"
-            android:textSize="16sp"
-            android:textStyle="bold" />
+            android:layout_marginBottom="5dp"
+            android:visibility="gone" />
 
     </LinearLayout>
-
-
 
 </androidx.drawerlayout.widget.DrawerLayout>

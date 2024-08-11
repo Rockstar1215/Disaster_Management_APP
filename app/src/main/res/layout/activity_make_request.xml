@@ -10,16 +10,18 @@
   <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
 
     <TextView
       android:padding="18dp"
       android:textSize="24sp"
       android:textStyle="bold"
       android:textColor="@android:color/black"
-      android:text="Share your Thoughts :)"
+      android:text="Share Incident Pic ;( "
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"/>
+      android:layout_height="wrap_content" />
 
     <FrameLayout
       android:layout_margin="8dp"
@@ -55,7 +57,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:padding="8dp"
-        app:srcCompat="@drawable/ic_image_black_24dp" />
+        app:srcCompat="@drawable/image" />
       <TextView
         android:id="@+id/choose_text"
         android:gravity="center"
@@ -71,17 +73,17 @@
 
 
     <Button
-      android:id="@+id/submit_button"
-      android:text="Post Request"
-      android:textSize="18sp"
-      android:background="@drawable/button_bg"
-      android:textAllCaps="false"
-      android:textStyle="bold"
-      android:textColor="@android:color/white"
-      android:layout_margin="30dp"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"/>
-
+        android:id="@+id/submit_button"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Share it"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
   </LinearLayout>
 
 </ScrollView>

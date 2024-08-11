@@ -12,6 +12,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.example.disaster.Announce.Announcement;
+import com.example.disaster.Askme.chatbot;
 import com.example.disaster.Emergencysos.SmsActivity;
 import com.example.disaster.Post.Post;
 
@@ -74,7 +76,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Dashboard.this, "Important Announcement Clicked", Toast.LENGTH_SHORT).show();
-                // startActivity(new Intent(DashboardActivity.this, AnnouncementActivity.class));
+                 startActivity(new Intent(Dashboard.this, Announcement.class));
                 vibrate();
             }
         });
@@ -92,7 +94,8 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Dashboard.this, "Ask Me Clicked", Toast.LENGTH_SHORT).show();
-                // startActivity(new Intent(DashboardActivity.this, AskMeActivity.class));
+                 startActivity(new Intent(Dashboard.this, chatbot.class));
+
                 vibrate();
             }
         });
