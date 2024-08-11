@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.example.disaster.Emergencysos.SmsActivity;
 import com.example.disaster.Post.Post;
 
 public class Dashboard extends AppCompatActivity {
@@ -55,7 +56,7 @@ public class Dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(Dashboard.this, "SOS Button Clicked", Toast.LENGTH_SHORT).show();
-                // startActivity(new Intent(DashboardActivity.this, SOSActivity.class));
+                 startActivity(new Intent(Dashboard.this, SmsActivity.class));
                 vibrate();
             }
         });

@@ -3,4 +3,6 @@
     <string name="google_server_client_id">450882195167-sfnnr5sogt7jvimr1npp8r6h1hdptgb6.apps.googleusercontent.com</string>
     <string name="make_Post">Post Your Thoughts</string>
     <string name="choose_image"><u>Upload Image</u></string>
+    <string name="google_map_key">AIzaSyA8MGaKd2HoieYMtbZ6H3ApZNv0c0R5QM0</string>
+
 </resources>
