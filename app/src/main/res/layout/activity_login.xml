@@ -2,21 +2,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_view"
+        android:layout_width="378dp"
+        android:layout_height="344dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
+
+
+
 
     <EditText
         android:id="@+id/emailEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
+        android:layout_height="42dp"
+        android:hint=" Email"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginBottom="8dp"
+
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
+        android:layout_height="42dp"
+        android:hint=" Password"
+        android:background="@drawable/edit_text_box"
+        android:layout_marginBottom="8dp"
+
         android:inputType="textPassword"
         tools:ignore="TouchTargetSizeCheck" />
 
