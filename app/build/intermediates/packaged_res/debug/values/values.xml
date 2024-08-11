@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">disaster</string>
+    <string name="choose_image"><u>Upload Image</u></string>
+    <string name="default_web_client_id" translatable="false">450882195167-sfnnr5sogt7jvimr1npp8r6h1hdptgb6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">450882195167</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbYPuwN6cbu8R1xxfKsF7HmdrFoa7rX_k</string>
+    <string name="google_app_id" translatable="false">1:450882195167:android:3d4d4e8e9b06e99de7236a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbYPuwN6cbu8R1xxfKsF7HmdrFoa7rX_k</string>
+    <string name="google_map_key">AIzaSyA8MGaKd2HoieYMtbZ6H3ApZNv0c0R5QM0</string>
+    <string name="google_server_client_id">450882195167-sfnnr5sogt7jvimr1npp8r6h1hdptgb6.apps.googleusercontent.com</string>
+    <string name="google_storage_bucket" translatable="false">disaster-7798a.appspot.com</string>
+    <string name="make_Post">Post Your Thoughts</string>
+    <string name="project_id" translatable="false">disaster-7798a</string>
+    <style name="Base.Theme.Disaster" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="Theme.Disaster" parent="Base.Theme.Disaster"/>
+</resources>
